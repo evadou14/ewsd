@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(110, 187, 255);
+}
+#score{
+    font-size: 50px;
+text-align: left;
+margin-left: 500px;
+}
+#timer{
+    font-size: 50px;
+    float: right;
+    margin-right: 500px;
+}
+#tobedrawn{
+    color:blueviolet;
+    font-size: 40px;
+}
+#yourSketch{
+    font-size: 40px;
+}
+#confidence{
+    font-size: 40px;
+}
+canvas{
+    border: 5px;
+    border-style: solid;
+    border-color: aqua;
+    animation-name:ani1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes ani1{
+    from{
+        box-shadow: 1px 1px 30px rgb(255, 201, 255);
+    }
+    to{
+        box-shadow: 1px 1px 30px rgb(137, 137, 255);
+    }
+}
